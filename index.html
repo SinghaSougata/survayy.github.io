@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-image: url(https://image.freepik.com/free-photo/top-view-circular-food-frame_23-2148723455.jpg);
+            background-size: cover;
+            height: 100vh;
+            background-attachment: fixed;
+
+        }
+        .heading{
+            text-align: center;
+        }
+        #main{
+            text-align: center;
+            margin: 5% 25% 5% 25%;
+            background-color: rgba(9, 209, 143,.6);
+        }
+        #name{
+            padding-top: 20px;
+        }
+        button{
+            margin-top: 20px;
+            background-color: rgb(107, 107, 122);
+        }
+        h1{
+            background-color: brown;
+            width: 758px;
+            margin: auto;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="main">
+    <div class="heading">
+        <h1 id="head">Canteen</h1>
+        <h2 id="subheading">food makes you happy</h2>
+    </div>
+    
+    <div id="content1">
+        <form>
+        <h3 class="one">How did you hear about us?</h3>
+        <select id="option" name="source">
+        <option disabled selected="selected">....Choose below</option>
+        <option>youtube</option>
+        <option>instagram</option>
+        <option>facebook</option>
+        <option>others</option>
+        </select><br>
+        <h3 class="one">How often do you visit our restaurent</h3>
+        <input class="box" type="text"><br>
+        <div class="rating">
+            <h3 class="one">How much ratings you want to give?</h3>
+            <input id="star1" type="radio" name="star1">
+            <label for="star1"></label>
+            <input id="star2" type="radio" name="star2">
+            <label for="star2"></label>
+            <input id="star3" type="radio" name="star3">
+            <label for="star3"></label>
+            <input id="star4" type="radio" name="star4">
+            <label for="star4"></label>
+            <input id="star5" type="radio" name="star5">
+            <label for="star5"></label>
+        </div>
+        <h3 class="one">What did yoyu like about the menu?</h3>
+        <input class="box" type="text" name"name"><br>
+        <h3 class="one">What did you dislike about the menu?</h3>
+        <input class="box" type="text" name"name"><br>
+        <h3 class="one">Is there anything you like to see on the menu?</h3>
+        <input class="box" type="text" name"name"><br>
+        <div id="name">
+        <label>Name</label><br>
+        <input class="box" type="name" name="name" placeholder="Enter Your Name"><br>
+        <label>Email</label><br>
+        <input class="box" type="email" name="email" placeholder="Enter Your Email"><br>
+        <label>Age</label><br>
+        <input class="box" type="age" name="age" placeholder="Enter Your Age"><br>
+        <label>phone</label><br>
+        <input class="box" type="phone" name="phone" placeholder="Enter Your number"><br>
+        </div>
+        <button type="submit">submit</button>
+    </form>
+    </div>
+    </div>
+</body>
+</html>
